@@ -8,7 +8,7 @@ import data from '../backend/Data'
 const Home = () =>{
     return(
             <div className='container-fluid'>
-              <h3 className ='text-center mt-5 text-uppercase'> Shop page </h3>
+              <h3 className ='text-center mt-5 rounded border border-light border-bottom-0'> Welcome to Josh's E-commerce store </h3>
               <div className = "container py-4">
                 <div className='row'>
                     {data.products.map((item,index)=>{

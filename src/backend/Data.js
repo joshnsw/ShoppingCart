@@ -1,9 +1,11 @@
-import imgOne from '../images/5.jpg';
-import imgTwo from '../images/6.jpg';
+
+
 import imgThree from '../images/7.jpg';
 
 import imgFour from '../images/8.jpg';
 
+import RedShirt from '../images/redshirt.jpeg'
+import BlueShirt from '../images/blueshirt.jpeg'
 
 
 
@@ -15,36 +17,36 @@ const Data ={
     products:[
     {
         id:1,
-        img:imgOne,
-        title:'product one',
-        desc:'high pants',
+        img:RedShirt,
+        title:'Mens Red T-Shirt',
+        desc:'High quality T-shirt made from cotton',
         price:80
     },
 
     {
         id:2,
-        img:imgTwo,
-        title:'Product two',
-        desc:'hello pants',
-        price:45
+        img:BlueShirt,
+        title:'Mens Red T-Shirt',
+        desc:'High quality T-shirt made from cotton',
+        price:85
     },
          
 
     {
         id:3,
         img:imgThree,
-        title:'product three ',
-        desc:'ok dress',
-        price:20
+        title:'Green Dress',
+        desc:'Made in italy dress for all occasions',
+        price:120
     },
          
 
     {
         id:4,
         img:imgFour,
-        title:'product 4',
-        desc:'nice dress',
-        price:20
+        title:'Beige Dress',
+        desc:'Casual Dress made for autumn occasions',
+        price:140
     },
          
                 
